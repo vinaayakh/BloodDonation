@@ -25,7 +25,7 @@
         height: 110px;
         .data-left{
             width: 62%;
-            display: inline-block;
+            display: inline-table;
             border-right: 2px solid #e2e2e2;
             .card-name{
                 font-size: 16px;
@@ -54,7 +54,7 @@
                 margin-top: 8%;
                 text-align: center;
                 color: #a2a2a2;
-                display: inline-table;
+                display: table-footer-group;
                 width: 100%;
                 .icon{
                     display: inline-block;
@@ -89,21 +89,24 @@
         }
     }
 }
-                                                                                                                                                    .icon-block{
-                                                                                                                                                        display: inline-block;
-                                                                                                                                                        width: 16%;
-                                                                                                                                                        vertical-align: top;
-                                                                                                                                                        .icon{
-                                                                                                                                                            display: inline-block;
-                                                                                                                                                            vertical-align: middle;
-                                                                                                                                                            color: #737373;
-                                                                                                                                                        }
-                                                                                                                                                    }
-                                                                                                                                                    .name-block{
-                                                                                                                                                        vertical-align: top;
-                                                                                                                                                        display: inline-block;
-                                                                                                                                                        width: 82%;
-                                                                                                                                                        span{
-                                                                                                                                                            margin-left:5px;
-                                                                                                                                                        }
-                                                                                                                                                    }
+                                                                                                                                                    
+.icon-block{                                                                                                                                        
+    display: inline-block;                                                                                                                                                    
+    width: 12%;                                                                                                                            
+    vertical-align: top;                                                                                                                                              
+    .icon{                                                                                                                                                    
+        display: inline-block;                                                                                                                                                
+        vertical-align: middle;                                                                                                                                         
+        color: #737373;                                                                                                                                                       
+    }                                                                                                                                                
+}
+                                                                                                                                                    
+.name-block{                                                                                                                                        
+    vertical-align: top;                                                                                                                               
+    display: inline-block;                                                                                                                                                                                                                                                                                                       
+    width: 88%;                                                                                                                                              
+    span{                                                                                                                                                
+        margin-left:5px;                                                                                                                                           
+    }
+                                                                                                                                                    
+}
