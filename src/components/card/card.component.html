@@ -1,0 +1,38 @@
+<div class="card">
+    <div class="card-image" [style.background]="'url('+person.profilePicture+')'">
+        <!-- <img src="../../assets/imgs/steve.jpg" alt=""> -->
+    </div>
+    <div class="card-data">
+        <div class="data-left">
+            <div class="card-name">
+                <div class="icon-block">
+                    <ion-icon name="contact"></ion-icon>
+                </div>
+                <div class="name-block">
+                    <span>{{person.name}}</span>
+                </div>
+            </div>
+            <div class="card-phone">
+                <div class="icon-block">
+                    <ion-icon name="call"></ion-icon>
+                </div>
+                <div class="name-block">
+                    <span>{{person.contactNumber}}</span>
+                </div>
+            </div>
+            <div class="card-last-donated">
+                <ion-icon name="time"></ion-icon><span>2 days ago</span>
+            </div>
+        </div>
+        <div class="data-right">
+            <div class="card-blood-group">
+                <div class="block">
+                    <ion-icon name="water"></ion-icon>
+                </div>
+                <div class="block">
+                    <span>{{person.bloodType}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
