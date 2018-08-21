@@ -4,9 +4,10 @@ export class Person{
     contactNumber: String;
     address: Address;
     lastDonated : Date;
-    profilePicture: String
+    profilePicture: String;
+    openCard:Boolean;
 
-    constructor(name:string, bloodType:('O+ve'|'O-ve'|'A+ve'|'A-ve'|'B+ve'|'B-ve'|'AB+ve'|'AB-ve'), contactNumber, address=null, lastDonated, profilePicture=null){}
+    constructor(name:string, bloodType:('O+ve'|'O-ve'|'A+ve'|'A-ve'|'B+ve'|'B-ve'|'AB+ve'|'AB-ve'), contactNumber, address=null, lastDonated, profilePicture=null, openCard=false){}
 }
 
 class Address{

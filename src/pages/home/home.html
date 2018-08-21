@@ -7,8 +7,8 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding class="list">
+<ion-content padding class="list" #listWrapper >
   <ng-container *ngFor="let donor of personList">
-    <card-component [person]="donor" ></card-component>
+    <card-component [person]="donor" (clicked)="cardClicked($event)"></card-component>
   </ng-container>
 </ion-content>
